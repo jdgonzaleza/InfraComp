@@ -14,7 +14,6 @@ public class Servidor extends Thread {
 		int respuesta;
 		while(true) {
 			try {
-				while(buff.darMensajesEnBuffer() == 0) wait();
 				mensaje=buff.sacarMensaje();
 				respuesta = mensaje.darMensaje()+1;
 				mensaje.responderSolicitud(respuesta);

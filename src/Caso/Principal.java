@@ -12,8 +12,8 @@ public class Principal {
 	{
 		System.out.println("Hecho por: ");
 		System.out.println(" Juan Diego González ---------- 201531418");
-		System.out.println(" Camilo Montenegro ---------- 201531418");
-		System.out.println("Carlos Peñaloza ---------- 201431970");
+		System.out.println(" Camilo Montenegro ---------- 201531747");
+		System.out.println("Carlos Peñaloza ---------- 201531973");
 		Properties datos= new Properties();
 		File f = new File ("./data/caso1.properties");
 		try 
